@@ -1,0 +1,9 @@
+#dotmap {
+    height: 600px; 
+    width: 800px; 
+}
+
+.title {
+    font-size: large;
+    color: black;
+}
