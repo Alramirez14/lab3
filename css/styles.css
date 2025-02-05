@@ -3,7 +3,13 @@
     width: 800px; 
 }
 
+#chloropleth {
+    height: 600px; 
+    width: 800px; 
+}
+
 .title {
-    font-size: large;
+    font-size: 36px;
     color: black;
+    text-align: center;
 }

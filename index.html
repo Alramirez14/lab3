@@ -7,18 +7,19 @@
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
     
     <link rel="stylesheet" href="css\styles.css"/>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.default.css" />
-    
+   
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0"></script>
 </head>
 <body>
 
-    <p class="title"> This is a test of the leaflet map</p>
-    <div id="dotmap"></div> <!-- Map container -->
-
-    <!-- Your custom JavaScript file -->
+    <p class="title"> This is a test of the leaflet map. Below is a map that uses graduated symbols:</p>
+    <div id="dotmap"></div> <!--creates a div for my map-->
+    <p class="title"> Next is a chloropleth:</p>
+    <div id="chloropleth"></div>
+    <!--links to my js file-->
     <script src="js\scripts.js"></script>
 
 </body>
