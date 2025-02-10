@@ -4,24 +4,27 @@ body {
     justify-content: center; /* Center content vertically */
     align-items: center;     /* Center content horizontally */
     text-align: center;      /* Center titles and text */
-    height: 100vh;           /* Full viewport height */
+    margin: auto;       /* Full viewport height */
 }
 
 #dotmap {
-    height: 600px; 
-    width: 800px; 
+    height: 800px; 
+    width: 1200px; 
+    margin: auto;
 }
 
 #chloropleth {
-    height: 600px; 
-    width: 800px; 
+    height: 800px; 
+    width: 1200px; 
+    margin: auto; 
 }
 
 .title {
     font-size: 30px;
     color: black;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .info.legend {
