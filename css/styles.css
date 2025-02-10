@@ -1,3 +1,12 @@
+body {
+    display: flex;
+    flex-direction: column;  /* Stack maps vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center;     /* Center content horizontally */
+    text-align: center;      /* Center titles and text */
+    height: 100vh;           /* Full viewport height */
+}
+
 #dotmap {
     height: 600px; 
     width: 800px; 
@@ -9,7 +18,31 @@
 }
 
 .title {
-    font-size: 36px;
+    font-size: 30px;
     color: black;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.info.legend {
+    line-height: 18px;
+    color: #555;
+    background-color: white;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.info.legend i {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.map {
+    display: flex;
+    justify-content: center;  /* Centers map horizontally */
+    align-items: center;      /* Centers map vertically */
+    height: 100vh;            /* Full viewport height */
 }
